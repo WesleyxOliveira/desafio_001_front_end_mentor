@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution { font-size: 11px; text-align: center; width: 375px; margin: auto; text-align: center;}
+    .attribution a { color: hsl(228, 45%, 44%)}
+
+body {
+    background-color: rgb(242, 235, 227);
+}
+
+#container {
+    border-radius: 10px;
+    width: 360px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+#image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/image-product-mobile.jpg);
+}
+
+#content {
+    padding: 20px;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: .5em;
+    color: gray;
+    margin: 8px 0;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    line-height: 1.6em;
+    text-align: left;
+    margin-top: 15px;
+}
+
+#prices {
+    position: relative;
+    margin-top: 20px;
+}
+
+#new-price {
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+    margin-right: 20px;
+}
+
+#old-price {
+    position: absolute;
+    text-decoration: line-through;
+    color: gray;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+#text {
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color:  hsl(159, 37%, 22%);
+}
+
