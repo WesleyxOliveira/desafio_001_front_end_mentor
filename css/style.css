@@ -71,6 +71,7 @@ p {
     position: absolute;
     text-decoration: line-through;
     color: gray;
+    font-size: .8em;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -85,7 +86,7 @@ button {
     border: none;
     background-color: hsl(158, 36%, 37%);
     color: white;
-    padding: 15px;
+    padding: 18px;
     border-radius: 10px;
     transition: .4s;
 }
