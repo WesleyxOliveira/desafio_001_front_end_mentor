@@ -102,4 +102,26 @@ button:hover {
 }
 
 
+/* Media Query */
+@media screen and (min-width: 600px) {
+    main {
+        width: 600px;
+        height: 450.953px;
+    }
+    
+    #image-container {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-image: url(../images/image-product-desktop.jpg);
+        background-size: cover;
+    }
+    
+    #content {
+        float: right;
+        width: 50%;
+    }
+}
+
+
 
